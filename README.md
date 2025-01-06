@@ -1,5 +1,8 @@
 This is an agentic RAG (Retrieval-Augmented Generation) application where the model responds to queries using specific data stored in a vector database.
 
+<img width="137" alt="image" src="https://github.com/user-attachments/assets/c71d9459-94a3-41e7-9d7b-fbd3e7f87303" />
+
+
 Agentic Architecture and Tech Stack:
 1. Vector Database: Pinecone is utilized as the vector database, providing efficient storage and retrieval of relevant embeddings.
 2. Model and Embeddings: OpenAI powers both the model and embedding generation for semantic understanding and accurate responses.
