@@ -11,6 +11,16 @@ The model exclusively generates responses based on the context retrieved from th
 Example Interaction:
 
 User Query: What was Amazon.com's annual visitor count in 2008, and how much did it grow afterward?
+
 Response:
 In 2008, Amazon.com had 615 million annual visitors. By 2022, this figure grew to over 2 billion monthly visitors. Converting monthly visitors to an annual figure (2 billion × 12 months = 24 billion), the growth from 2008 to 2022 was approximately 23.385 billion additional visitors annually.
 This architecture ensures precise, contextually grounded responses while avoiding irrelevant or speculative outputs.
+
+Setup to follow -
+
+1. Create a virtual environment - python3 -m venv virtual-env-name
+2. Activate the virtual environment - source virtual-env-name/bin/activate
+3. Install all the dependencies using the requirements.txt file - pip install -r requirements.txt
+4. I have used Amazon.com company's wiki page.
+6. I have used the pinecone database as my vector database. Create one account and start using it. Sign Up here - https://app.pinecone.io/
+7. Keep your OPENAI_API_KEY and PINECONE_API_KEY handy.
